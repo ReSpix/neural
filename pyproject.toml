@@ -1,0 +1,19 @@
+[project]
+name = "neural"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "graphviz>=0.21",
+    "ipykernel<7.0.0",
+    "pydot>=4.0.1",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "tensorboard>=2.20.0",
+    "torch>=2.11.0",
+]
+
+[[tool.uv.index]]
+name = "torch"
+url = "https://download.pytorch.org/whl/cu128"
