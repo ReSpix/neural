@@ -11,4 +11,5 @@ wheels/
 
 
 logs/
-model.png
+*.png
+data/
