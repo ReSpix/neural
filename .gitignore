@@ -13,3 +13,4 @@ wheels/
 logs/
 *.png
 data/
+model_checkpoints/
